@@ -2,7 +2,7 @@
     margin: 0%;
     padding: 0%;
 }
-/*Common shared codes*/
+/*----Common shared codes----*/
 
 .primary-title{
     color: #272727;
@@ -27,7 +27,14 @@
     font-weight: 700;
 }
 
-/* Header section styles */
+.f-list{
+    width: 450px;
+    height: 500px;
+    border-radius: 50% 50% 0 0;
+    background-color: #E55473;
+}
+
+/*----Header section styles----*/
 
 .header{
     background-color: rgba(229, 84, 115, 0.10);
@@ -59,5 +66,64 @@
     margin: 0 0 -50px 0px;
 }
 
+/*----Main section styles----*/
 
+/*container one styles*/
 
+.container-one{
+    height: 710px;
+    margin: 150px 210px 0 210px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.container-one-title{
+    font-size: 40px;
+}
+
+.container-one-des{
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.featured-flower-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-one{
+    background: rgba(167, 33, 98, 0.15);
+}
+.f-one-img{
+    margin-top: 72px;
+}
+
+.f-two{
+    background: rgba(5, 151, 160, 0.15);
+}
+.f-two-img{
+    margin-top: 70px;
+}
+
+.f-three{
+    background: rgba(71, 125, 17, 0.15);
+}
+.f-three-img{
+    margin-top: 29px;
+}
+
+.f-one-title , .f-three-title{
+    color: #272727;
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Verdana, sans-serif;
+}
+
+.f-two-title{
+    color: #272727;
+    margin-top: 90px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Verdana, sans-serif;
+}
