@@ -34,6 +34,10 @@
     background-color: #E55473;
 }
 
+.f-list:hover{
+    box-shadow: 2px 2px 17px gray;
+}
+
 /*----Header section styles----*/
 
 .header{
@@ -187,6 +191,16 @@
 .container-four-img{
     display: flex;
     justify-content: space-between;
+}
+
+.flower-img{
+    height: 397px;
+    border-radius: 10px ;
+    box-shadow: 2px 2px 19px lightgray;
+}
+
+.flower-img > img{
+    border-radius: 10px;
 }
 
 /*container five styles*/
