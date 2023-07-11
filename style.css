@@ -163,6 +163,10 @@
     margin-bottom: 20px;
 }
 
+.off-title{
+    color: #E55473;
+}
+
 /*container four styles*/
 
 .container-four{
@@ -222,6 +226,27 @@
     outline: none;
     box-shadow: 0px 2px 5px gainsboro;
     margin-right: 10px;
+}
+
+/*Container six styles*/
+
+.container-six{
+    height: 450px;
+    margin-top: 150px;
+    padding-left: 400px;
+    background-image: url("./Flower Asset/flower60.png");
+    display: flex;
+    align-items: center;
+}
+
+.container-six-title-two{
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.container-six-des{
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 
 /*Footer section styles*/
