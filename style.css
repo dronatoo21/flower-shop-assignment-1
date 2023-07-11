@@ -163,10 +163,6 @@
     margin-bottom: 20px;
 }
 
-.off-red{
-    color: #E55473;
-}
-
 /*container four styles*/
 
 .container-four{
@@ -187,4 +183,85 @@
 .container-four-img{
     display: flex;
     justify-content: space-between;
+}
+
+/*container five styles*/
+
+.container-five{
+    height: 440px;
+    margin: 150px 220px 0 220px;
+    background-image: url("./Flower Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-five-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container-five-des{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+#container-five-email{
+    padding: 25px 420px 22px 20px;
+    border-radius: 40px 10px 10px 40px;
+    border: 0;
+    outline: none;
+    box-shadow: 0px 2px 5px gainsboro;
+    margin-right: 10px;
+}
+
+/*Footer section styles*/
+
+.footer{
+    height: 450px;
+    margin-top: 200px;
+    background-color: #111010;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-title{
+    font-size: 48px;
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.flower-title{
+    color: #E55473;
+    font-family: Verdana, sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-des{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+.footer-end{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
 }
